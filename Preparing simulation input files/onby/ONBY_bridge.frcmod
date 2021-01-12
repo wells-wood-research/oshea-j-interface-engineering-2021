@@ -1,0 +1,25 @@
+Remark line goes here
+MASS
+
+BOND
+OH - c3  308.60   1.432
+
+ANGLE
+OH - c3 - ca   68.300     108.950
+OH - c3 - hc   50.800     109.780
+C  - OH - c3   62.500     117.960
+
+DIHE
+C-OH-c3-ca   3    1.150         0.000           3.000
+C-OH-c3-hc   3    1.150         0.000           3.000
+ca-ca-no-o   4    3.680       180.000           2.000
+
+IMPROPER
+ca-o -no-o          7.28         180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+ca-ca-ca-no         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

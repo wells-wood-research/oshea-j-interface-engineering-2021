@@ -1,0 +1,15 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff
+source leaprc.water.tip3p
+
+loadAmberPrep gys.prepin
+loadAmberParams gys2.frcmod
+loadAmberParams gys1.frcmod
+
+ENH = loadPDB enh_dry_mono.pdb
+
+addions ENH Na+ 0
+solvatebox ENH TIP3PBOX 8.0
+
+saveAmberParm ENH enh_t3p.parm7 enh_t3p.rst7
+quit

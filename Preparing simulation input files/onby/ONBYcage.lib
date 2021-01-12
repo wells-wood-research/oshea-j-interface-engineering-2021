@@ -1,0 +1,136 @@
+!!index array str
+ "ONB"
+!entry.ONB.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "NN" "no" 0 1 131072 1 7 0.313200
+ "CH" "c3" 0 1 131072 2 6 -0.068800
+ "CO1" "ca" 0 1 131072 3 6 0.003700
+ "CM1" "ca" 0 1 131072 4 6 -0.150000
+ "CP" "ca" 0 1 131072 5 6 -0.082000
+ "CM2" "ca" 0 1 131072 6 6 -0.147000
+ "CO2" "ca" 0 1 131072 7 6 -0.066000
+ "CN" "ca" 0 1 131072 8 6 -0.182200
+ "ON1" "o" 0 1 131072 9 8 -0.213500
+ "ON2" "o" 0 1 131072 10 8 -0.213500
+ "HH3" "hc" 0 1 131072 11 1 0.065033
+ "HH1" "hc" 0 1 131072 12 1 0.065033
+ "HH2" "hc" 0 1 131072 13 1 0.065033
+ "HM1" "ha" 0 1 131072 14 1 0.147000
+ "HO" "ha" 0 1 131072 15 1 0.172000
+ "HP" "ha" 0 1 131072 16 1 0.143000
+ "HM2" "ha" 0 1 131072 17 1 0.148000
+!entry.ONB.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "NN" "no" 0 -1 0.0
+ "CH" "c3" 0 -1 0.0
+ "CO1" "ca" 0 -1 0.0
+ "CM1" "ca" 0 -1 0.0
+ "CP" "ca" 0 -1 0.0
+ "CM2" "ca" 0 -1 0.0
+ "CO2" "ca" 0 -1 0.0
+ "CN" "ca" 0 -1 0.0
+ "ON1" "o" 0 -1 0.0
+ "ON2" "o" 0 -1 0.0
+ "HH3" "hc" 0 -1 0.0
+ "HH1" "hc" 0 -1 0.0
+ "HH2" "hc" 0 -1 0.0
+ "HM1" "ha" 0 -1 0.0
+ "HO" "ha" 0 -1 0.0
+ "HP" "ha" 0 -1 0.0
+ "HM2" "ha" 0 -1 0.0
+!entry.ONB.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.ONB.unit.childsequence single int
+ 2
+!entry.ONB.unit.connect array int
+ 0
+ 0
+!entry.ONB.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 8 1
+ 1 9 1
+ 1 10 1
+ 2 3 1
+ 2 11 1
+ 2 12 1
+ 2 13 1
+ 3 4 4
+ 3 8 4
+ 4 5 4
+ 4 14 1
+ 5 6 4
+ 5 16 1
+ 6 7 4
+ 6 17 1
+ 7 8 4
+ 7 15 1
+!entry.ONB.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+!entry.ONB.unit.name single str
+ "ONB"
+!entry.ONB.unit.positions table  dbl x  dbl y  dbl z
+ -2.532000 1.963000 -0.689000
+ -0.113000 3.736000 -1.353000
+ -0.763000 2.716000 -2.304000
+ -0.132000 2.509000 -3.531000
+ -0.856000 1.851000 -4.491000
+ -2.040000 1.183000 -4.270000
+ -2.527000 1.154000 -2.999000
+ -1.912000 1.956000 -2.039000
+ -2.889000 0.873000 -0.224000
+ -2.831000 2.956000 -0.035000
+ 0.817000 3.906000 -1.438000
+ -0.202000 3.351000 -0.335000
+ -0.662000 4.642000 -1.566000
+ 0.896000 2.827000 -3.779000
+ -3.398000 0.532000 -2.792000
+ -0.468000 1.857000 -5.499000
+ -2.565000 0.698000 -5.079000
+!entry.ONB.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.ONB.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "ONB" 1 18 1 "?" 0
+!entry.ONB.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.ONB.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.ONB.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0

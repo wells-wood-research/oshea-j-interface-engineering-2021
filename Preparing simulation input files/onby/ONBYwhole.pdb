@@ -1,0 +1,79 @@
+HETATM    1  N   ONB C 487       8.371   1.517  -0.337  1.00 31.61           N
+HETATM    2  CA  ONB C 487       7.382   2.108   0.549  1.00 32.06           C
+HETATM    3  C   ONB C 487       8.129   2.881   1.606  1.00 32.25           C
+HETATM    4  O   ONB C 487       9.341   2.610   2.127  1.00 36.09           O
+HETATM    5  CB  ONB C 487       6.592   0.992   1.219  1.00 31.21           C
+HETATM    6  CG  ONB C 487       5.668   0.170   0.365  1.00 32.46           C
+HETATM    7  CD1 ONB C 487       4.661   0.973  -0.185  1.00 31.47           C
+HETATM    8  CD2 ONB C 487       5.672  -1.175   0.067  1.00 29.33           C
+HETATM    9  CE1 ONB C 487       3.671   0.467  -0.973  1.00 26.06           C
+HETATM   10  CE2 ONB C 487       4.674  -1.716  -0.729  1.00 28.94           C
+HETATM   11  CZ  ONB C 487       3.655  -0.877  -1.236  1.00 32.88           C
+HETATM   12  CH  ONB C 487       1.698  -0.744  -2.861  1.00  0.00           C
+HETATM   13  CM1 ONB C 487       0.858   0.628  -0.951  1.00  0.00           C
+HETATM   14  CM2 ONB C 487      -1.198   1.942  -1.048  1.00  0.00           C
+HETATM   15  CN  ONB C 487      -0.531   0.631  -2.900  1.00  0.00           C
+HETATM   16  NN  ONB C 487      -0.842   0.178  -4.283  1.00  0.00           N
+HETATM   17  ON1 ONB C 487      -1.859   0.651  -4.805  1.00  0.00           O
+HETATM   18  ON2 ONB C 487      -0.191  -0.612  -4.950  1.00  0.00           O
+HETATM   19  CO1 ONB C 487       0.634   0.190  -2.255  1.00  0.00           C
+HETATM   20  CP  ONB C 487      -0.062   1.492  -0.418  1.00  0.00           C
+HETATM   21  CO2 ONB C 487      -1.448   1.496  -2.309  1.00  0.00           C
+HETATM   22  OH  ONB C 487       2.618  -1.353  -2.003  1.00 30.61           O
+HETATM   23  H01 ONB C 487       8.841   0.762   0.140  1.00 31.61           H
+HETATM   24  H02 ONB C 487       7.912   1.160  -1.163  1.00 31.61           H
+HETATM   25  H03 ONB C 487       9.047   2.219  -0.604  1.00 31.61           H
+HETATM   26  HA  ONB C 487       6.689   2.766   0.021  1.00 32.06           H
+HETATM   27  HB1 ONB C 487       7.256   0.301   1.721  1.00 31.21           H
+HETATM   28  HB2 ONB C 487       6.002   1.397   2.043  1.00 31.21           H
+HETATM   29  HD1 ONB C 487       4.601   2.047  -0.021  1.00 31.47           H
+HETATM   30  HD2 ONB C 487       6.452  -1.827   0.448  1.00 29.33           H
+HETATM   31  HE1 ONB C 487       2.966   1.246  -1.321  1.00 26.06           H
+HETATM   32  HE2 ONB C 487       4.669  -2.774  -0.965  1.00 28.94           H
+HETATM   33  HH1 ONB C 487       2.332  -0.148  -3.520  1.00  0.00           H
+HETATM   34  HH2 ONB C 487       1.100  -1.505  -3.340  1.00  0.00           H
+HETATM   35  HM1 ONB C 487       1.718   0.331  -0.323  1.00  0.00           H
+HETATM   36  HO  ONB C 487      -2.358   1.836  -2.804  1.00  0.00           H
+HETATM   37  OXT ONB C 487       7.432   3.823   2.226  1.00  0.00           O
+HETATM   38  HM2 ONB C 487      -1.872   2.629  -0.557  1.00  0.00           H
+HETATM   39  HP  ONB C 487       0.121   1.851   0.584  1.00  0.00           H
+CONECT   27    5
+CONECT   39   20
+CONECT   29    7
+CONECT   31    9
+CONECT   33   12
+CONECT   28    5
+CONECT   30    8
+CONECT   32   10
+CONECT   34   12
+CONECT    3   37    4    2
+CONECT    2   26    3    5    1
+CONECT    5   28   27    2    6
+CONECT    7   29    6    9
+CONECT    8   30    6   10
+CONECT    9   31    7   11
+CONECT   10   32    8   11
+CONECT    6    5    7    8
+CONECT   12   33   22   34   19
+CONECT   13   35   20   19
+CONECT   14   38   20   21
+CONECT   15   21   16   19
+CONECT   19   13   12   15
+CONECT   20   39   13   14
+CONECT   21   36   14   15
+CONECT   11   22    9   10
+CONECT   23    1
+CONECT   24    1
+CONECT   25    1
+CONECT   26    2
+CONECT   38   14
+CONECT   35   13
+CONECT   36   21
+CONECT    1   25   23   24    2
+CONECT   16   15   17   18
+CONECT    4    3
+CONECT   22   12   11
+CONECT   17   16
+CONECT   18   16
+CONECT   37    3
+END

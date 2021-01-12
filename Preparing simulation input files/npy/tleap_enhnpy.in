@@ -1,0 +1,25 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff
+source leaprc.water.tip3p
+
+loadAmberPrep gys.prepin
+loadAmberParams frcmod2.gys
+loadAmberParams frcmod1.gys
+
+loadAmberParams NPY_bridge.frcmod
+loadoff NPYcage.lib
+
+ENH = loadPDB enhgfp_npy.pdb
+
+remove ENH.262 ENH.262.HH
+remove ENH.340 ENH.340.HH3
+bond ENH.262.OH ENH.340.CH
+
+addions ENH Na+ 0
+solvatebox ENH TIP3PBOX 8.0
+
+set ENH.262.OH charge -0.3249
+set ENH.340.CH charge 0.1637
+
+saveAmberParm ENH enhgfp_npy_newnitroFF_t3p.parm7 enhgfp_npy_newnitroFF_t3p.rst7
+quit

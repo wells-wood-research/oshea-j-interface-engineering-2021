@@ -1,0 +1,80 @@
+USER  MOD reduce.3.3.160602 H: found=14, std=0, add=0, rem=0, adj=0
+HETATM    1  N   NPY C 487       6.835   0.598   0.880  1.00 31.61           N
+HETATM    2  NN  NPY C 487      -2.532   1.963  -0.689  1.00  0.00           N1+
+HETATM    3  CA  NPY C 487       5.869  -0.223   0.170  1.00 32.06           C
+HETATM    4  C   NPY C 487       6.496  -1.578  -0.038  1.00 32.25           C
+HETATM    5  CH  NPY C 487      -0.113   3.736  -1.353  1.00  0.00           C
+HETATM    6  CO1 NPY C 487      -0.763   2.716  -2.304  1.00  0.00           C
+HETATM    7  CM1 NPY C 487      -0.132   2.509  -3.531  1.00  0.00           C
+HETATM    8  CP  NPY C 487      -0.856   1.851  -4.491  1.00  0.00           C
+HETATM    9  CM2 NPY C 487      -2.040   1.183  -4.270  1.00  0.00           C
+HETATM   10  CT  NPY C 487      -1.176   0.499  -6.139  1.00  0.00           C
+HETATM   11  CP2 NPY C 487      -2.527   1.154  -2.999  1.00  0.00           C
+HETATM   12  CN  NPY C 487      -1.912   1.956  -2.039  1.00  0.00           C
+HETATM   13  CB  NPY C 487       5.593   0.407  -1.189  1.00 31.21           C
+HETATM   14  CG  NPY C 487       4.603   1.534  -1.256  1.00 32.46           C
+HETATM   15  CD1 NPY C 487       3.291   1.042  -1.277  1.00 31.47           C
+HETATM   16  CD2 NPY C 487       4.782   2.901  -1.261  1.00 29.33           C
+HETATM   17  CE1 NPY C 487       2.204   1.860  -1.187  1.00 26.06           C
+HETATM   18  CE2 NPY C 487       3.688   3.750  -1.356  1.00 28.94           C
+HETATM   19  CZ  NPY C 487       2.379   3.209  -1.343  1.00 32.88           C
+HETATM   20  O   NPY C 487       7.704  -1.765   0.107  1.00 36.09           O
+HETATM   21  OM  NPY C 487      -2.464   0.660  -5.485  1.00  0.00           O
+HETATM   22  OP  NPY C 487      -0.523   1.753  -5.864  1.00  0.00           O
+HETATM   23  ON1 NPY C 487      -2.889   0.873  -0.224  1.00  0.00           O1-
+HETATM   24  ON2 NPY C 487      -2.831   2.956  -0.035  1.00  0.00           O
+HETATM   25  OPH NPY C 487       1.256   3.987  -1.478  1.00 30.61           O
+HETATM   26 1HH  NPY C 487      -0.202   3.351  -0.335  1.00  0.00           H
+HETATM   27 2HH  NPY C 487      -0.662   4.642  -1.566  1.00  0.00           H
+HETATM   28  HM  NPY C 487       0.896   2.827  -3.779  1.00  0.00           H
+HETATM   29 1HT  NPY C 487      -0.617  -0.335  -5.696  1.00  0.00           H
+HETATM   30 2HT  NPY C 487      -1.297   0.331  -7.205  1.00  0.00           H
+HETATM   31  HO  NPY C 487      -3.398   0.532  -2.792  1.00  0.00           H
+HETATM   32 1HB  NPY C 487       6.510   0.764  -1.640  1.00 31.21           H
+HETATM   33 2HB  NPY C 487       5.264  -0.359  -1.894  1.00 31.21           H
+HETATM   34 1HD  NPY C 487       3.051  -0.014  -1.373  1.00 31.47           H
+HETATM   35 2HD  NPY C 487       5.775   3.335  -1.198  1.00 29.33           H
+HETATM   36 1HE  NPY C 487       1.267   1.300  -1.007  1.00 26.06           H
+HETATM   37 2HE  NPY C 487       3.829   4.821  -1.435  1.00 28.94           H
+HETATM   38  HA  NPY C 487       4.927  -0.323   0.713  1.00 32.06           H
+HETATM   39  H1  NPY C 487       7.707   0.641   0.324  1.00 31.61           H
+CONECT    1    3   39
+CONECT    2   12   23   24
+CONECT    3    1    4   13   38
+CONECT    4    3   20
+CONECT    5    6   25   26   27
+CONECT    6    5    7   12
+CONECT    7    6    8   28
+CONECT    8    7    9   22
+CONECT    9    8   11   21
+CONECT   10   21   22   29   30
+CONECT   11    9   12   31
+CONECT   12    2    6   11
+CONECT   13    3   14   32   33
+CONECT   14   13   15   16
+CONECT   15   14   17   34
+CONECT   16   14   18   35
+CONECT   17   15   19   36
+CONECT   18   16   19   37
+CONECT   19   17   18   25
+CONECT   20    4
+CONECT   21    9   10
+CONECT   22    8   10
+CONECT   23    2
+CONECT   24    2
+CONECT   25    5   19
+CONECT   26    5
+CONECT   27    5
+CONECT   28    7
+CONECT   29   10
+CONECT   30   10
+CONECT   31   11
+CONECT   32   13
+CONECT   33   13
+CONECT   34   15
+CONECT   35   16
+CONECT   36   17
+CONECT   37   18
+CONECT   38    3
+CONECT   39    1
+END
