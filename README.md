@@ -61,7 +61,7 @@ In the directory *Preparing simulation input files*, we detail the steps necessa
 	`antechamber -i NPYwhole.pdb  -fi pdb -o NPYwhole.mol2 -fo mol2 -c bcc`
 
 3. Within the **whole** .mol2, find the charges of the atoms involved in the bond that joins the caging/additional group to the canonical amino acid. Take note of these charges; they will be required in the final step of this method to neutralise the overall charge of the residue when the bond is made between the caging/additional group and the canonical amino acid.
-4. Prepare a .frcmod file (**NPYcage.frcmod**) for your caging/additional group with any forcefield parameters you deem more valid than those GAFF can provide. For example, we apply nitro group parameters derived from quantum mechanical calculations (Han et al., 2010).
+4. Prepare a .frcmod file (**NPYcage.frcmod**) for your caging/additional group with any forcefield parameters you deem more valid than those GAFF can provide. For example, we apply nitro group parameters derived from quantum mechanical calculations (Myung and Han, 2010).
 5. Prepare a tLeap instruction file that creates a .lib file for the caging group (**NPYcage.lib**). The instruction file in this example is **tleap_npy.in**, and contains instructions to:
 	- source atom parameter databases ff14SB and GAFF
 	- load the mol2 file of the caging/additional group
@@ -92,3 +92,8 @@ In the directory *Preparing simulation input files*, we detail the steps necessa
 11. Run this instruction file:
 
 `tleap tleap_enhnpy.in`
+
+
+
+### References
+Myung, Y., & Han, S. H. (2010). Force field parameters for 3-nitrotyrosine and 6-nitrotryptophan. Bull. Korean Chem. Soc, 31(9), 2581–2587.
