@@ -33,13 +33,13 @@ More information on conda environments can be found here:
 	- Step time of 2fs
 	- Log frequency of 0.2ns
 	- Log information:
-		- step
+		- step (step number was only recorded for the NPY and ONBY simulations)
 		- potential energy (kJ/mol)
 		- kinetic energy (kJ/mol)
 		- temperature (K)
 		- box volume (nm^3)
 		- simulation speed (ns/day)
-	- Save state and create checkpoint every 5ns
+	- Save state and create checkpoint (every 5ns for NPY and ONBY, every 10ns for wt)
 - Simulation outputs will be stored in the directory from which run_md.py is initiated.
 
 
@@ -53,7 +53,7 @@ In the directory *Preparing simulation input files*, we detail the steps necessa
 ### NPY and ONBY, parameterising caging groups
   To parameterise the NPY- and ONBY-containing nanobody/GFP complexes, we defined the given caging group as a ligand before using tLeap to covalently attach it to the appropriate residue. We will describe the method using NPY as the example.
 
-1. Prepare a PDB file for your caging/additional group alone (in this example **NPYcage.pdb**) and your complete modified amino acid (in this example **NPYwhole.pdb**)
+1. Prepare a PDB file for your caging/additional group alone (in this example **NPYcage.pdb**) and your complete modified amino acid (in this example **NPYwhole.pdb**). These were obtained from an online [SMILES-to-PDB converter](https://cactus.nci.nih.gov/translate/)
 2. Use antechamber to create mol2 files from each of these PDBs.
 
   `antechamber -i NPYcage.pdb  -fi pdb -o NPYcage.mol2 -fo mol2 -c bcc`
