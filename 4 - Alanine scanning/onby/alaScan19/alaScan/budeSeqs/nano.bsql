@@ -1,0 +1,135 @@
+%BUDE SEQUENCE FILE
+%VERSION  3.00
+# Remember that the 2 previous lines are required,
+# any other lines starting with # are comments
+# The sequence is defined by a list of residues one per line and separated
+# by space if it is active or not (true or false)
+#
+# The sequence should be exactly the same as in the corresponding PDB file
+# %VERSION 3.00: Will allow comments at any position within the file.
+# Any part of a line after a '#' character will considered a comment.
+# It will also ignore blank lines.
+#
+# %VERSION 3.00: The tag END will denote the end of the library. No further
+# lines will be considered. The line containing the END tag can only have the
+# tag and blank characters or a comment.
+#
+# If the END tag is omitted the file will be process till the EOF and a warning
+# will be issued.
+#
+# Residue:	Active
+  GLN           false
+  VAL           false
+  GLN           false
+  LEU           false
+  VAL           false
+  GLU           true
+  SER           false
+  GLY           false
+  GLY           false
+  ALA           false
+  LEU           false
+  VAL           false
+  GLN           false
+  PRO           false
+  GLY           false
+  GLY           false
+  SER           false
+  LEU           false
+  ARG           true
+  LEU           false
+  SER           false
+  CYS           false
+  ALA           false
+  ALA           false
+  SER           false
+  GLY           false
+  PHE           false
+  PRO           false
+  VAL           false
+  ASN           false
+  ARG           true
+  TYR           false
+  SER           false
+  MET           false
+  ARG           true
+  TRP           false
+  ONB           false
+  ARG           true
+  GLN           false
+  ALA           false
+  PRO           false
+  GLY           false
+  LYS           true
+  GLU           true
+  ARG           true
+  GLU           true
+  TRP           false
+  VAL           false
+  ALA           false
+  GLY           false
+  MET           false
+  SER           false
+  SER           false
+  ALA           false
+  GLY           false
+  ASP           true
+  ARG           true
+  SER           false
+  SER           false
+  TYR           false
+  GLU           true
+  ASP           true
+  SER           false
+  VAL           false
+  LYS           true
+  GLY           false
+  ARG           true
+  PHE           false
+  THR           false
+  ILE           false
+  SER           false
+  ARG           true
+  ASP           true
+  ASP           true
+  ALA           false
+  ARG           true
+  ASN           false
+  THR           false
+  VAL           false
+  TYR           false
+  LEU           false
+  GLN           false
+  MET           false
+  ASN           false
+  SER           false
+  LEU           false
+  LYS           true
+  PRO           false
+  GLU           true
+  ASP           true
+  THR           false
+  ALA           false
+  VAL           false
+  TYR           false
+  TYR           false
+  CYS           false
+  ASN           false
+  VAL           false
+  ASN           false
+  VAL           false
+  GLY           false
+  PHE           false
+  GLU           true
+  TYR           false
+  TRP           false
+  GLY           false
+  GLN           false
+  GLY           false
+  THR           false
+  GLN           false
+  VAL           false
+  THR           false
+  VAL           false
+  SER           false
+END

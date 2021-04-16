@@ -1,9 +1,0 @@
-source leaprc.protein.ff14SB
-source leaprc.gaff
-ONB = loadmol2 ONBYcage.mol2
-check ONB
-loadamberparams ONBYcage.frcmod
-check ONB
-saveoff ONB ONBYcage.lib
-saveamberparm ONB onbycage.prmtop onbycage.rst7
-quit

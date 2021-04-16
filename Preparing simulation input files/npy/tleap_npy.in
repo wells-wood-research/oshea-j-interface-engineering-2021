@@ -1,9 +1,0 @@
-source leaprc.protein.ff14SB
-source leaprc.gaff
-NPY = loadmol2 npycage.mol2
-check NPY
-loadamberparams NPYcage.frcmod
-check NPY
-saveoff NPY NPYcage.lib
-saveamberparm NPY npycage.prmtop npycage.rst7
-quit
